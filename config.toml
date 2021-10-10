@@ -44,7 +44,7 @@ tocopen = false
 
   [params.label]
   text = "Home"
-  icon = "/images/logo.svg"
+  icon = "https://imgur.com/BybdgPp"
   iconHeight = 45
 
   [params.profileMode]
