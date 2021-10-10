@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://fernandoindesign.github.io/smartfox-blog-hugo/sitemap.xml
