@@ -1,4 +1,4 @@
-baseURL = "https://fernandoindesign.github.io/smartfox-blog-hugo/"
+baseURL = "http://127.0.0.1:5500/docs/"
 title = "SmartFox Blog"
 paginate = 5
 theme = "PaperMod"
@@ -15,70 +15,57 @@ minifyOutput = true
 [params]
 env = "production"
 title = "SmartFox"
-description = "ExampleSite description"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
-author = "fernandoindesign"
+description = "Blog sobre Growth y Desarrollo Web3"
+keywords = [ "Blog", "Growth", "SmartFox", "Crypto" ]
+author = "smartfox"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
-defaultTheme = "auto"
+defaultTheme = "light"
 disableThemeToggle = false
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
+ShowCodeCopyButtons = true
 disableSpecial1stPost = false
 disableScrollToTop = false
 comments = false
 hidemeta = false
 hideSummary = false
-showtoc = false
-tocopen = false
+showtoc = true
+tocopen = true
 
   [params.assets]
-  favicon = "images\favicon.png"
-  favicon16x16 = "<link / abs url>"
-  favicon32x32 = "<link / abs url>"
-  apple_touch_icon = "<link / abs url>"
-  safari_pinned_tab = "<link / abs url>"
+  favicon = "favicon.svg"
+  favicon16x16 = "favicon.svg"
+  favicon32x32 = "favicon.svg"
+  apple_touch_icon = "favicon.svg"
+  safari_pinned_tab = "favicon.svg"
 
   [params.label]
-  text = "Home"
-  icon = "https://imgur.com/BybdgPp"
-  iconHeight = 45
-
-  [params.profileMode]
-  enabled = false
-  title = "ExampleSite"
-  subtitle = "This is subtitle"
-  imageUrl = "<img location>"
-  imageWidth = 120
-  imageHeight = 120
-  imageTitle = "my image"
-
-    [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "posts"
-
-    [[params.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
+  text = "SmartFox Blog"
+  icon = "favicon.svg"
+  iconHeight = 40
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Title = "Hola! 👋"
+  Content = "Bienvenidos al blog mas pro"
 
   [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/"
 
   [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
+  name = "telegram"
+  url = "https://google.com"
 
-  [[params.socialIcons]]
+   [[params.socialIcons]]
   name = "github"
   url = "https://github.com/"
+
+   [[params.socialIcons]]
+  name = "email"
+  url = "https://google.com/"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -90,7 +77,7 @@ SiteVerificationTag = "XYZabc"
 SiteVerificationTag = "XYZabc"
 
   [params.cover]
-  hidden = true
+  hidden = false
   hiddenInList = true
   hiddenInSingle = true
 
@@ -110,18 +97,12 @@ SiteVerificationTag = "XYZabc"
 
 [[menu.main]]
 identifier = "categories"
-name = "categories"
+name = "Categories"
 url = "/categories/"
 weight = 10
 
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
-
-[[menu.main]]
 identifier = "SmartFox"
-name = "smartfox.agency🚀"
+name = "smartfox.agency💻"
 url = "https://smartfox.agency"
 weight = 50
